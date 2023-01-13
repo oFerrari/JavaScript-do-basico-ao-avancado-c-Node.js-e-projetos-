@@ -1,7 +1,10 @@
-let velocidade = 100
+let idade = 17
+let cnh = true
 
-if (velocidade < 80){
-    console.log("Dentro do limite de Velocidade")
-}else{
-    console.log("Fora do limite de Velocidade")
+if (idade > 18 && cnh == false) {
+    console.log("Nao pode dirigir")
+} else if (idade > 18 && cnh == true) {
+    console.log("Pode dirigir")
+} else {
+    console.log("Nao pode dirigir")
 }
