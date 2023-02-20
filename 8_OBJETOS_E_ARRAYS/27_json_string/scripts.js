@@ -8,3 +8,7 @@ let {porcas} = pessoa
 
 console.log(pessoa.porcas)
 console.log(porcas)
+
+//Mias Rigoroso
+//Apenas Aspas Duplas
+//Aceita comentarios
