@@ -1,8 +1,8 @@
 let nomes = ['andrei','simone','monica', 'julie']
 
-let remove = nomes.shift()
+let remove = nomes.shift()      //Remove Inicio
 console.log(remove)
 console.log(nomes)
 
-nomes.unshift("Jonathan")
+nomes.unshift("Jonathan")       //Adiciona Inicio
 console.log(nomes)
