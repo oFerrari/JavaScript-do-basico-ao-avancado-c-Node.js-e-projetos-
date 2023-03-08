@@ -17,15 +17,4 @@ console.log(fred.bark())
 console.log(Dog.prototype.race)
 
 
-class Cats {
-    constructor(){
-    this.race = race;
-    this.paws = paws;
-    this.color = color;
-    this.bark() = () =>{ return "auauu"}
-    }
-}
-
-let Tom = new Cats()
-console.log(Cats.prototype.race)
 
