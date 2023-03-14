@@ -7,6 +7,6 @@ console.log(dia.test("asd1"));
 
 const palavrasPeloMenosTresLetras = /\w\w\w/;
 
-console.log(palavrasPeloMenosTresLetras.test("asd"));
-console.log(palavrasPeloMenosTresLetras.test("asdd"));
-console.log(palavrasPeloMenosTresLetras.test("as"));
+console.log(palavrasPeloMenosTresLetras.test("asd") && "asd".length == 3);
+console.log(palavrasPeloMenosTresLetras.test("asdd") && "asdd".length == 3);
+console.log(palavrasPeloMenosTresLetras.test("as") && "as".length == 3);

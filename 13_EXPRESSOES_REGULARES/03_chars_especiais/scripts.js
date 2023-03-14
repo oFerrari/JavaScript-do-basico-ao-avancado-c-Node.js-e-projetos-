@@ -22,7 +22,7 @@ console.log(dRegex2.test(" "));
 console.log(dRegex2.test("123"));
 console.log(dRegex2.test("123sad"));
 
-const sRegex = /\s/;
+const sRegex = /\s/; //[Só caracetere com espaço]
 
 console.log('s');
 console.log(sRegex.test("asd"));
@@ -30,10 +30,26 @@ console.log(sRegex.test(" "));
 console.log(sRegex.test("123"));
 console.log(sRegex.test("123sad"));
 
-const wRegex = /\w/;
+const sRegex2 = /\S/; //[Só caracetere sem espaço]
+
+console.log('S');
+console.log(sRegex2.test("asd"));
+console.log(sRegex2.test(" "));
+console.log(sRegex2.test("123"));
+console.log(sRegex2.test("123sad"));
+
+const wRegex = /\w/; // [Só aceita alfa numericos (numeros e letras)]
 
 console.log('w');
 console.log(wRegex.test("asd"));
 console.log(wRegex.test(" "));
 console.log(wRegex.test("123"));
 console.log(wRegex.test("123sad"));
+
+const wRegex2 = /\W/; // [Não aceita alfa numericos (numeros e letras)]
+
+console.log('W');
+console.log(wRegex2.test("asd"));
+console.log(wRegex2.test(" "));
+console.log(wRegex2.test("123"));
+console.log(wRegex2.test("123sad"));
