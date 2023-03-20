@@ -2,7 +2,7 @@ function somaComDelay(a,b) {
   return new Promise(resolve => {
     setTimeout(function() {
       resolve(a+b);
-    }, 4000);
+    }, 2000);
   })
 }
 
@@ -15,4 +15,4 @@ async function resSoma(a,b,c) {
 
 }
 
-resSoma(1,2,3).then(value => console.log(value));
+resSoma(10,2,3).then(value => console.log(value));

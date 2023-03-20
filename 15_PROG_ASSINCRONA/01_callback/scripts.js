@@ -1,6 +1,6 @@
 console.log("Ola estou aqui agora");
 
-setTimeout(()=>{console.log("Ola estou aqui denovo")},5000)
+setTimeout(()=>{console.log("Ola estou aqui denovo")},10000)
 
 console.log("1");
 console.log("2");

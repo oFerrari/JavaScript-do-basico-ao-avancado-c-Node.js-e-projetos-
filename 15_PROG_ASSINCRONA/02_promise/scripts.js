@@ -33,13 +33,6 @@ myPromise2.then((dados) => {
 
 
 
-
-
-
-
-
-
-
 let promessa = Promise.resolve(5+5)
 
 console.log("Outros códigos");

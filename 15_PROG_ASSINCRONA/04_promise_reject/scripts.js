@@ -10,3 +10,4 @@ function verificarNumero(num) {
 
 verificarNumero(2);
 verificarNumero(3);
+

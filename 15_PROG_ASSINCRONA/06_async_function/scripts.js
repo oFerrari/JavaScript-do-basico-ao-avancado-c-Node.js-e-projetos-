@@ -2,6 +2,6 @@ async function somar(a, b) {
   return a + b;
 }
 
-console.log(somar(2,4));
+console.log(somar(2,-1));
 
-somar(2,4).then(value => console.log(value));
+somar(2,-1).then(value => console.log(value));
