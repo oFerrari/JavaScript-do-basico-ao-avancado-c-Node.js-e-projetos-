@@ -1,5 +1,5 @@
-let novoElemento = document.createElement("p");
-let texto = document.createTextNode("Algum texto");
+let novoElemento = document.createElement("a");
+let texto = document.createTextNode("LINK");
 
 novoElemento.appendChild(texto);
 
